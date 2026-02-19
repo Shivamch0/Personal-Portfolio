@@ -6,12 +6,13 @@ import CanvasLoader from "../loader";
 
 type ComputersProps = {
   isMobile: boolean;
-};
+}; 
 
 // Computers
 const Computers = ({ isMobile }: ComputersProps) => {
   // Import scene
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("/desktop_pc/scene.gltf");
+  useGLTF.preload("/desktop_pc/scene.gltf");
 
   return (
     // Mesh

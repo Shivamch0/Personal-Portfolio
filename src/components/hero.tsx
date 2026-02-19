@@ -7,7 +7,7 @@ import { cn } from "../utils/lib";
 // Hero
 export const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full min-h-screen mx-auto">
       <div
         className={cn(
           styles.paddingX,

@@ -36,6 +36,7 @@ import project3 from "./projects/project3.png";
 import project4 from "./projects/project4.png";
 import project5 from "./projects/project5.png";
 import project6 from "./projects/project6.png";
+import Home from "./projects/Home.png";
 
 import user1 from "./testimonials/user1.jpg";
 import user2 from "./testimonials/user2.jpg";
@@ -86,4 +87,5 @@ export {
   youtube,
   linkedin,
   twitter,
+  Home
 };

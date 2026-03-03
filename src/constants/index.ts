@@ -36,6 +36,7 @@ import {
   linkedin,
   twitter,
   github,
+  Home
 } from "../assets";
 
 // Navbar Links
@@ -212,16 +213,16 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "Sentrachat",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "A real-time chat application with AI-powered emotion tracking (Positive/Neutral/Negative), secure authentication, and scalable cloud deployment.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "socket.io",
         color: "green-text-gradient",
       },
       {
@@ -229,9 +230,9 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app",
+    image: Home,
+    source_code_link: "https://github.com/Shivamch0/SentraChat",
+    live_site_link: "https://sentrachat.netlify.app",
   },
   {
     name: "Golds Gym",
@@ -354,7 +355,7 @@ export const SOCIALS = [
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://github.com/Shivamch0",
+    link: "https://www.linkedin.com/in/shivam-choudhary-28a019346",
   },
   // {
   //   name: "Twitter",
@@ -364,6 +365,7 @@ export const SOCIALS = [
   {
     name: "GitHub",
     icon: github,
-    link: "https://www.linkedin.com/in/shivam-choudhary-28a019346/",
+    link: "https://github.com/Shivamch0",
+    
   },
 ] as const;

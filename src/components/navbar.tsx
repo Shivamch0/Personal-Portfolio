@@ -36,7 +36,7 @@ export const Navbar = ({ hide }: NavbarProps) => {
       className={cn(
         styles.paddingX,
         "w-full flex items-center py-5 fixed top-0 z-20 bg-primary",
-        isAtBottom || hide ? "mt-0" : "mt-20"
+        isAtBottom || hide ? "mt-0" : "mt-5"
       )}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">

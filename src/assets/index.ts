@@ -24,6 +24,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
+import canva from "./tech/canva.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,6 +39,7 @@ import project4 from "./projects/project4.png";
 import project5 from "./projects/project5.png";
 import project6 from "./projects/project6.png";
 import Home from "./projects/Home.png";
+import careerLens from "./projects/CareerLens.png"
 import landing from "./projects/landing (1).png"
 
 import user1 from "./testimonials/user1.jpg";
@@ -89,5 +92,7 @@ export {
   linkedin,
   twitter,
   Home,
-  landing
+  landing,
+  canva,
+  careerLens
 };

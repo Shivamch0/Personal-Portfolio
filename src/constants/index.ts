@@ -35,7 +35,9 @@ import {
   twitter,
   github,
   Home,
-  landing
+  landing,
+  canva,
+  careerLens
 } from "../assets";
 
 // Navbar Links
@@ -120,21 +122,25 @@ export const TECHNOLOGIES = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "GitHub",
+    icon: github,
   },
   {
     name: "figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "canva",
+    icon: canva,
   },
 ] as const;
 
@@ -212,6 +218,28 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
+    name: "CareerLens (UI Only)",
+    description:
+      " CareerLens AI is an intelligent career guidance platform that analyzes user skills, interests, and aptitude to recommend  career paths with actionable roadmaps.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: careerLens,
+    source_code_link: "https://github.com/Shivamch0/SentraChat",
+    live_site_link: "https://career-lens-ai-sigma.vercel.app/",
+  },
+  {
     name: "Sentrachat",
     description:
       "A real-time chat application with AI-powered emotion tracking (Positive/Neutral/Negative), secure authentication, and scalable cloud deployment.",
@@ -231,30 +259,30 @@ export const PROJECTS = [
     ],
     image: Home,
     source_code_link: "https://github.com/Shivamch0/SentraChat",
-    live_site_link: "https://sentrachat.netlify.app",
+    // live_site_link: "https://sentrachat.netlify.app",
   },
-  {
-    name: "Golds Gym",
-    description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app",
-  },
+  // {
+  //   name: "Golds Gym",
+  //   description:
+  //     "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "rapidapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: project2,
+  //   source_code_link: "https://github.com/sanidhyy/fitness-app",
+  //   live_site_link: "https://fitness-gym-react.netlify.app",
+  // },
   // {
   //   name: "Shoppy",
   //   description:
@@ -319,7 +347,7 @@ export const PROJECTS = [
     ],
     image: landing,
     source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://react-cems.netlify.app",
+    // live_site_link: "https://react-cems.netlify.app",
   },
   // {
   //   name: "Travel Advisor",

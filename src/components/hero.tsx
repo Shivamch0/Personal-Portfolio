@@ -22,12 +22,12 @@ export const Hero = () => {
 
         {/* About Me */}
         <div>
-          <h1 className={cn(styles.heroHeadText, "text-white")}>
+          <h1 className={cn(styles.heroHeadText, "text-white ")}>
             Hi, I'm <span className="text-[#915eff]">Shivam</span>
           </h1>
           <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
-            I develop E-commerce, user <br className="sm:block hidden" />
-            interfaces and web applications
+            I develop E-commerce, user interfaces <br className="sm:block hidden" />
+             and web applications
           </p>
         </div>
       </div>
@@ -36,7 +36,7 @@ export const Hero = () => {
       <ComputersCanvas />
 
       {/* Scroll to about section */}
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center mt-20">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div

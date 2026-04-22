@@ -1,12 +1,12 @@
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect, useState, useRef } from "react";
 
 import CanvasLoader from "../loader";
 
 type ComputersProps = {
   isMobile: boolean;
-}; 
+};
 
 // Computers
 const Computers = ({ isMobile }: ComputersProps) => {
@@ -41,31 +41,41 @@ const Computers = ({ isMobile }: ComputersProps) => {
 const ComputersCanvas = () => {
   // state to check mobile
   const [isMobile, setIsMobile] = useState(false);
+  const canvasRef = useRef();
 
   // Check if device is Mobile
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
 
     setIsMobile(mediaQuery.matches);
 
-    // handle screen size change
-    const handleMediaQueryChange = (event: MediaQueryListEvent) => {
-      setIsMobile(event?.matches);
-    };
-
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
+    const handleChange = (e) => setIsMobile(e.matches);
+    mediaQuery.addEventListener("change", handleChange);
 
     return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+      mediaQuery.removeEventListener("change", handleChange);
+    };
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (canvasRef.current) {
+        const gl = canvasRef.current.gl;
+        if (gl) {
+          gl.dispose?.();
+          gl.forceContextLoss?.();
+        }
+      }
     };
   }, []);
 
   return (
     <Canvas
+      ref={canvasRef}
       frameloop="demand"
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true, alpha: true }}
+      gl={{ alpha: true }}
     >
       {/* Canvas Loader show on fallback */}
       <Suspense fallback={<CanvasLoader />}>

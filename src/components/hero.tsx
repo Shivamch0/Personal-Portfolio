@@ -33,7 +33,9 @@ export const Hero = () => {
       </div>
 
       {/* Computer Model */}
-      <ComputersCanvas />
+      <div className="hidden md:block absolute inset-0 z-0">
+        <ComputersCanvas />
+      </div>
 
       {/* Scroll to about section */}
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center mt-20">

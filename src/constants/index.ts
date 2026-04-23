@@ -236,7 +236,7 @@ export const PROJECTS = [
       },
     ],
     image: careerLens,
-    source_code_link: "https://github.com/Shivamch0/SentraChat",
+    source_code_link: "https://github.com/Shivamch0/CareerLens-AI",
     live_site_link: "https://career-lens-ai-sigma.vercel.app/",
   },
   {
@@ -259,7 +259,7 @@ export const PROJECTS = [
     ],
     image: Home,
     source_code_link: "https://github.com/Shivamch0/SentraChat",
-    // live_site_link: "https://sentrachat.netlify.app",
+    live_site_link: "https://sentra-chat.vercel.app/",
   },
   // {
   //   name: "Golds Gym",
@@ -346,8 +346,8 @@ export const PROJECTS = [
       },
     ],
     image: landing,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    // live_site_link: "https://react-cems.netlify.app",
+    source_code_link: "https://github.com/Shivamch0/College-Management-System",
+    live_site_link: "https://college-management-system-weld.vercel.app/",
   },
   // {
   //   name: "Travel Advisor",

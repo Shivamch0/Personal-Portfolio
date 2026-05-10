@@ -83,13 +83,7 @@ npm run build
 Preview the production build locally:
 
 npm run preview
-📸 Screenshots
 
-Add screenshots or GIF previews of your portfolio inside:
-
-/public/screenshots
-
-Example:
 
 Homepage
 3D Hero Section
@@ -99,6 +93,7 @@ Mobile Responsive View
 
 🔗 Live Website:
 https://your-portfolio-url.com
+
 
 📌 Planned Enhancements
 🌙 Dark / Light Mode

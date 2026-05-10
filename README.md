@@ -4,6 +4,7 @@ A modern and interactive 3D Developer Portfolio built with React, TypeScript, an
 
 Designed to create a strong developer presence while demonstrating modern frontend development practices and interactive UI experiences.
 
+
 ✨ Features
 🌌 Interactive 3D visuals powered by Three.js
 ⚡ Lightning-fast performance with Vite
@@ -15,6 +16,8 @@ Designed to create a strong developer presence while demonstrating modern fronte
 🔗 Social media and GitHub integration
 🛠️ TypeScript support for maintainable code
 🚀 Optimized project structure for scalability
+
+
 🛠️ Tech Stack
 Frontend
 React.js
@@ -26,6 +29,8 @@ Three.js
 React Three Fiber
 React Three Drei
 Framer Motion
+
+
 📁 Project Structure
 src/
 │
@@ -50,13 +55,19 @@ src/
 ├── styles.ts          # Global style variables/configuration
 ├── index.css          # Global styles
 └── env.d.ts           # TypeScript environment declarations
+
+
 ⚙️ Getting Started
+
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/portfolio.git
+
 2️⃣ Navigate to the Project Directory
 cd portfolio
+
 3️⃣ Install Dependencies
 npm install
+
 4️⃣ Start Development Server
 npm run dev
 

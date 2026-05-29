@@ -240,6 +240,28 @@ export const PROJECTS = [
     live_site_link: "https://career-lens-ai-beige.vercel.app/",
   },
   {
+    name: "Optivio AI",
+    description:
+      "Developed Optivio AI, A SaaS platform that leverages AI to automate SEO analysis, competitor monitoring, keyword insights, and digital marketing content generation.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux-toolkit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: careerLens,
+    source_code_link: "https://github.com/Shivamch0/CareerLens-AI",
+    live_site_link: "https://career-lens-ai-beige.vercel.app/",
+  },
+  {
     name: "Sentrachat",
     description:
       "A real-time chat application with AI-powered emotion tracking (Positive/Neutral/Negative), secure authentication, and scalable cloud deployment.",
@@ -327,28 +349,28 @@ export const PROJECTS = [
   //   source_code_link: "https://github.com/sanidhyy/tiktok-clone",
   //   live_site_link: "https://tiktok-clone-react.vercel.app",
   // },
-  {
-    name: "CEMS",
-    description:
-      "A full-stack web application designed to manage campus events efficiently with role-based access, real-time updates, and data analytics.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "NodeMailer",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: landing,
-    source_code_link: "https://github.com/Shivamch0/College-Management-System",
-    live_site_link: "https://college-management-system-weld.vercel.app/",
-  },
+  // {
+  //   name: "CEMS",
+  //   description:
+  //     "A full-stack web application designed to manage campus events efficiently with role-based access, real-time updates, and data analytics.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "NodeMailer",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: landing,
+  //   source_code_link: "https://github.com/Shivamch0/College-Management-System",
+  //   live_site_link: "https://college-management-system-weld.vercel.app/",
+  // },
   // {
   //   name: "Travel Advisor",
   //   description:

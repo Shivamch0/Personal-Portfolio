@@ -258,8 +258,8 @@ export const PROJECTS = [
       },
     ],
     image: careerLens,
-    source_code_link: "https://github.com/Shivamch0/CareerLens-AI",
-    live_site_link: "https://career-lens-ai-beige.vercel.app/",
+    source_code_link: "https://optivio-ai.vercel.app/",
+    live_site_link: "https://github.com/Shivamch0/Optivio-AI",
   },
   {
     name: "Sentrachat",

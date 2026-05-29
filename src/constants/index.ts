@@ -249,7 +249,7 @@ export const PROJECTS = [
         color: "blue-text-gradient",
       },
       {
-        name: "redux-toolkit",
+        name: "grok-AI",
         color: "green-text-gradient",
       },
       {

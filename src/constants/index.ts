@@ -259,8 +259,8 @@ export const PROJECTS = [
       },
     ],
     image: optivio,
-    source_code_link: "https://github.com/Shivamch0/Optivio-AI ",
-    live_site_link: " https://optivio-ai.vercel.app/",
+    source_code_link: "https://github.com/Shivamch0/Optivio-AI",
+    live_site_link: "https://optivio-ai.vercel.app/",
   },
   {
     name: "Sentrachat",

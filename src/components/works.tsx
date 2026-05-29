@@ -31,7 +31,7 @@ const ProjectCard = ({
       }}
       className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
     >
-      <div className="relative w-full aspect-[16/10] overflow-hidden rounded-2xl bg-black-200">
+      <div className="relative w-full aspect-[2/1] overflow-hidden rounded-2xl bg-black-200">
         {/* Work image */}
         <img
           src={image}

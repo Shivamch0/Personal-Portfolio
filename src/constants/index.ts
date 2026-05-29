@@ -37,7 +37,8 @@ import {
   Home,
   landing,
   canva,
-  careerLens
+  careerLens,
+  optivio,
 } from "../assets";
 
 // Navbar Links
@@ -257,7 +258,7 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: careerLens,
+    image: optivio,
     source_code_link: "https://optivio-ai.vercel.app/",
     live_site_link: "https://github.com/Shivamch0/Optivio-AI",
   },

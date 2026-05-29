@@ -173,11 +173,11 @@ export const EXPERIENCES = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Udemy",
+    title: "MERN Stack Developer",
+    company_name: "Udemy/Excellence Technology,Mohali",
     icon: nodejs,
     iconBg: "#383E56",
-    date: "Jan 2025 - November 2025",
+    date: "Jan 2026 - April 2026",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -218,7 +218,7 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "CareerLens (UI Only)",
+    name: "CareerLens",
     description:
       " CareerLens AI is an intelligent career guidance platform that analyzes user skills, interests, and aptitude to recommend  career paths with actionable roadmaps.",
     tags: [
@@ -227,7 +227,7 @@ export const PROJECTS = [
         color: "blue-text-gradient",
       },
       {
-        name: "",
+        name: "redux-toolkit",
         color: "green-text-gradient",
       },
       {
@@ -237,7 +237,7 @@ export const PROJECTS = [
     ],
     image: careerLens,
     source_code_link: "https://github.com/Shivamch0/CareerLens-AI",
-    live_site_link: "https://career-lens-ai-sigma.vercel.app/",
+    live_site_link: "https://career-lens-ai-beige.vercel.app/",
   },
   {
     name: "Sentrachat",

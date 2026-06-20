@@ -33,7 +33,7 @@ export const Hero = () => {
       </div>
 
       {/* Computer Model */}
-      <div className="hidden md:block absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0">
         <ComputersCanvas />
       </div>
 

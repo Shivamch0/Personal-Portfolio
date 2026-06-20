@@ -52,7 +52,7 @@ export const About = () => {
         {/* Body */}
         <motion.p
           variants={fadeIn(undefined, undefined, 0.1, 1)}
-          className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           I’m a skilled web developer with strong expertise in JavaScript and modern frameworks like React and Node.js. I’m a quick learner who enjoys collaborating closely with clients to build efficient, scalable, and user-friendly web solutions that solve real-world problems. Let’s work together to bring your ideas to life!
         </motion.p>

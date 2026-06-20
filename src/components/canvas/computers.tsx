@@ -41,7 +41,7 @@ const Computers = ({ isMobile }: ComputersProps) => {
 const ComputersCanvas = () => {
   // state to check mobile
   const [isMobile, setIsMobile] = useState(false);
-  const canvasRef = useRef();
+  const canvasRef = useRef<any>(null);
 
   // Check if device is Mobile
   useEffect(() => {
@@ -49,7 +49,7 @@ const ComputersCanvas = () => {
 
     setIsMobile(mediaQuery.matches);
 
-    const handleChange = (e) => setIsMobile(e.matches);
+    const handleChange = (e: MediaQueryListEvent) => setIsMobile(e.matches);
     mediaQuery.addEventListener("change", handleChange);
 
     return () => {

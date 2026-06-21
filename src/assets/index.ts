@@ -42,6 +42,7 @@ import Home from "./projects/Home.png";
 import careerLens from "./projects/CareerLens.png"
 import landing from "./projects/landing (1).png"
 import optivio from "./projects/Optivio.png"
+import taskflow from "./projects/TaskFlow.png";
 
 import user1 from "./testimonials/user1.jpg";
 import user2 from "./testimonials/user2.jpg";
@@ -97,4 +98,5 @@ export {
   canva,
   careerLens,
   optivio,
+  taskflow
 };

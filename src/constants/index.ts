@@ -39,6 +39,7 @@ import {
   canva,
   careerLens,
   optivio,
+  taskflow,
 } from "../assets";
 
 // Navbar Links
@@ -263,6 +264,28 @@ export const PROJECTS = [
     live_site_link: "https://optivio-ai.vercel.app/",
   },
   {
+    name: "TaskFlow",
+    description:
+      "TaskFlow is a full-stack task management application designed to help teams and individuals organize projects, track tasks, and improve productivity.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: taskflow,
+    source_code_link: "https://github.com/Shivamch0/TaskFlow",
+    live_site_link: "https://task-flow-mu-self.vercel.app/",
+  },
+  {
     name: "Sentrachat",
     description:
       "A real-time chat application with AI-powered emotion tracking (Positive/Neutral/Negative), secure authentication, and scalable cloud deployment.",
@@ -284,116 +307,50 @@ export const PROJECTS = [
     source_code_link: "https://github.com/Shivamch0/SentraChat",
     live_site_link: "https://sentra-chat.vercel.app/",
   },
-  // {
-  //   name: "Golds Gym",
-  //   description:
-  //     "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "rapidapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: project2,
-  //   source_code_link: "https://github.com/sanidhyy/fitness-app",
-  //   live_site_link: "https://fitness-gym-react.netlify.app",
-  // },
-  // {
-  //   name: "Shoppy",
-  //   description:
-  //     "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "syncfusion",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: project3,
-  //   source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-  //   live_site_link: "https://shoppy-dashboard-react.netlify.app",
-  // },
-  // {
-  //   name: "TikTok Clone",
-  //   description:
-  //     "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "nodejs",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: project4,
-  //   source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-  //   live_site_link: "https://tiktok-clone-react.vercel.app",
-  // },
-  // {
-  //   name: "CEMS",
-  //   description:
-  //     "A full-stack web application designed to manage campus events efficiently with role-based access, real-time updates, and data analytics.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "NodeMailer",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: landing,
-  //   source_code_link: "https://github.com/Shivamch0/College-Management-System",
-  //   live_site_link: "https://college-management-system-weld.vercel.app/",
-  // },
-  // {
-  //   name: "Travel Advisor",
-  //   description:
-  //     "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "rapidapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "material-ui",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: project6,
-  //   source_code_link: "https://github.com/sanidhyy/travel-advisor",
-  //   live_site_link: "https://travel-advisor-reactjs.netlify.app",
-  // },
+  {
+    name: "Golds Gym",
+    description:
+      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapidapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project2,
+    source_code_link: "https://github.com/Shivamch0/Fitness-App",
+    live_site_link: "https://fitness-gym-react.netlify.app",
+  },
+  {
+    name: "CEMS",
+    description:
+      "A full-stack web application designed to manage campus events efficiently with role-based access, real-time updates, and data analytics.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeMailer",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: landing,
+    source_code_link: "https://github.com/Shivamch0/College-Management-System",
+    live_site_link: "https://college-management-system-weld.vercel.app/",
+  },
 ] as const;
 
 export const SOCIALS = [

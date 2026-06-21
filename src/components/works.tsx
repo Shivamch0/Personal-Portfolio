@@ -29,9 +29,9 @@ const ProjectCard = ({
         scale: 1,
         speed: 450,
       }}
-      className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+      className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full cursor-pointer"
     >
-      <div className="relative w-full aspect-[2/1] overflow-hidden rounded-2xl bg-black-200">
+      <div className="relative w-full aspect-[2/1] overflow-hidden rounded-2xl bg-black-200 ">
         {/* Work image */}
         <img
           src={image}

@@ -40,6 +40,7 @@ import {
   careerLens,
   optivio,
   taskflow,
+  learnHub,
 } from "../assets";
 
 // Navbar Links
@@ -220,6 +221,32 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
+    name: "LearnHub LMS",
+    description:
+      "A modern LMS with secure authentication, online course enrollment, Stripe payments, educator dashboards, lecture progress tracking, and course rating functionality.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "cloudinary",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: learnHub,
+    source_code_link: "https://github.com/Shivamch0/Learning-Management-System",
+    live_site_link: "https://lmsfrontend-sandy.vercel.app/",
+  },
+  {
     name: "CareerLens",
     description:
       " CareerLens AI is an intelligent career guidance platform that analyzes user skills, interests, and aptitude to recommend  career paths with actionable roadmaps.",
@@ -306,28 +333,6 @@ export const PROJECTS = [
     image: Home,
     source_code_link: "https://github.com/Shivamch0/SentraChat",
     live_site_link: "https://sentra-chat.vercel.app/",
-  },
-  {
-    name: "Golds Gym",
-    description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project2,
-    source_code_link: "https://github.com/Shivamch0/Fitness-App",
-    live_site_link: "https://fitness-gym-react.netlify.app",
   },
   {
     name: "CEMS",

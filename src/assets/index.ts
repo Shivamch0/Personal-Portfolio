@@ -43,6 +43,7 @@ import careerLens from "./projects/CareerLens.png"
 import landing from "./projects/landing (1).png"
 import optivio from "./projects/Optivio.png"
 import taskflow from "./projects/TaskFlow.png";
+import learnHub from "./projects/LearnHub.png"
 
 import user1 from "./testimonials/user1.jpg";
 import user2 from "./testimonials/user2.jpg";
@@ -98,5 +99,6 @@ export {
   canva,
   careerLens,
   optivio,
-  taskflow
+  taskflow,
+  learnHub,
 };
